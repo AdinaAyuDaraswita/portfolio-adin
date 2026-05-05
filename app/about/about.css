@@ -1,0 +1,49 @@
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.desc {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255,255,255,0.1);
+  padding: 1rem;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #facc15; /* kuning neon */
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.item-desc {
+  font-size: 1rem;
+  opacity: 0.9;
+}
